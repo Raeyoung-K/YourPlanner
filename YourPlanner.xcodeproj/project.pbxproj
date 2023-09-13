@@ -30,6 +30,8 @@
 		8D7D20402AB12713000E4563 /* LoginViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7D203F2AB12713000E4563 /* LoginViewViewModel.swift */; };
 		8D7D20422AB1271E000E4563 /* RegisterViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7D20412AB1271E000E4563 /* RegisterViewViewModel.swift */; };
 		8D7D20442AB12732000E4563 /* PlanListItemViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7D20432AB12732000E4563 /* PlanListItemViewViewModel.swift */; };
+		8D7D20462AB12AD6000E4563 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7D20452AB12AD6000E4563 /* HeaderView.swift */; };
+		8D7D20482AB15DF0000E4563 /* YPButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7D20472AB15DF0000E4563 /* YPButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +56,8 @@
 		8D7D203F2AB12713000E4563 /* LoginViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewViewModel.swift; sourceTree = "<group>"; };
 		8D7D20412AB1271E000E4563 /* RegisterViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewViewModel.swift; sourceTree = "<group>"; };
 		8D7D20432AB12732000E4563 /* PlanListItemViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanListItemViewViewModel.swift; sourceTree = "<group>"; };
+		8D7D20452AB12AD6000E4563 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		8D7D20472AB15DF0000E4563 /* YPButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YPButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +120,8 @@
 				8D7D202D2AB125FD000E4563 /* LoginView.swift */,
 				8D7D202F2AB12608000E4563 /* RegisterView.swift */,
 				8D7D20312AB1264D000E4563 /* PlanListView.swift */,
+				8D7D20452AB12AD6000E4563 /* HeaderView.swift */,
+				8D7D20472AB15DF0000E4563 /* YPButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -233,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D7D202E2AB125FD000E4563 /* LoginView.swift in Sources */,
+				8D7D20462AB12AD6000E4563 /* HeaderView.swift in Sources */,
 				8D5D51A32AB0B3A800C81F2E /* MainView.swift in Sources */,
 				8D7D20422AB1271E000E4563 /* RegisterViewViewModel.swift in Sources */,
 				8D7D20382AB126BC000E4563 /* MainViewViewModel.swift in Sources */,
@@ -249,6 +256,7 @@
 				8D7D20322AB1264D000E4563 /* PlanListView.swift in Sources */,
 				8D7D203E2AB12707000E4563 /* NewItemViewViewModel.swift in Sources */,
 				8D7D20442AB12732000E4563 /* PlanListItemViewViewModel.swift in Sources */,
+				8D7D20482AB15DF0000E4563 /* YPButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
