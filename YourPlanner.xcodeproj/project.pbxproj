@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D4FB6792AB2948800A727DE /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4FB6782AB2948800A727DE /* Extensions.swift */; };
 		8D5D51A12AB0B3A800C81F2E /* YourPlannerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5D51A02AB0B3A800C81F2E /* YourPlannerApp.swift */; };
 		8D5D51A32AB0B3A800C81F2E /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5D51A22AB0B3A800C81F2E /* MainView.swift */; };
 		8D5D51A52AB0B3A900C81F2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D5D51A42AB0B3A900C81F2E /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8D4FB6782AB2948800A727DE /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		8D5D519D2AB0B3A800C81F2E /* YourPlanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YourPlanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D5D51A02AB0B3A800C81F2E /* YourPlannerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourPlannerApp.swift; sourceTree = "<group>"; };
 		8D5D51A22AB0B3A800C81F2E /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -155,6 +157,7 @@
 				8D5D51A42AB0B3A900C81F2E /* Assets.xcassets */,
 				8D5D51A02AB0B3A800C81F2E /* YourPlannerApp.swift */,
 				8D5D51AE2AB0B79D00C81F2E /* GoogleService-Info.plist */,
+				8D4FB6782AB2948800A727DE /* Extensions.swift */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -253,6 +256,7 @@
 				8D7D20402AB12713000E4563 /* LoginViewViewModel.swift in Sources */,
 				8D7D20362AB12688000E4563 /* PlanListItem.swift in Sources */,
 				8D7D202C2AB125E9000E4563 /* NewItemView.swift in Sources */,
+				8D4FB6792AB2948800A727DE /* Extensions.swift in Sources */,
 				8D7D20322AB1264D000E4563 /* PlanListView.swift in Sources */,
 				8D7D203E2AB12707000E4563 /* NewItemViewViewModel.swift in Sources */,
 				8D7D20442AB12732000E4563 /* PlanListItemViewViewModel.swift in Sources */,
