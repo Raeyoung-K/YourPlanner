@@ -6,3 +6,14 @@
 //
 
 import Foundation
+
+// viewModel for list of items view
+// Primary tab
+class PlanListViewViewModel :ObservableObject {
+    
+    @Published var showingNewItemView = false
+    
+    init() {
+        
+    }
+}

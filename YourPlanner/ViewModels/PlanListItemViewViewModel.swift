@@ -6,3 +6,11 @@
 //
 
 import Foundation
+
+// viewModel for a single plan item view
+
+class PlanListItemViewViewModel :ObservableObject {
+    init() {
+        
+    }
+}

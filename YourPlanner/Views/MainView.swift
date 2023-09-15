@@ -15,12 +15,28 @@ struct MainView: View {
         
         if viewModel.isSignedIn, !viewModel.currentUserId.isEmpty {
             // already signed in
-            PlanListItemView()
+            //PlanListItemView()
+            
+         accountView
             
         } else {
             LoginView()
         }
         
+    }
+    
+    @ViewBuilder
+    var accountView: some View {
+        TabView {
+            PlanListView(userId: viewModel.currentUserId)
+                .tabItem {
+                    Label("Home", systemImage: "house")
+                }
+            ProfileView()
+                .tabItem {
+                    Label("Profile", systemImage: "person.circle")
+                }
+        }
     }
 }
 
